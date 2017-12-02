@@ -14,9 +14,9 @@ def singleton(klass):
 
 
 @singleton
-class Person:  # Присвоит onCall имени Person
+class Person: 
 
-    def __init__(self, name, hours, rate):  # onCall сохранит Person
+    def __init__(self, name, hours, rate): 
         self.name = name
         self.hours = hours
         self.rate = rate
