@@ -25,8 +25,8 @@ class Person:
         return self.hours * self.rate
 
 
-z = Person('Bob', 14, 4)
-x = Person('Jack', 44, 4)
+z = Person('Bob', 87, 26)
+x = Person('Jack', 0, 0)
 
 print(z, x)
 
