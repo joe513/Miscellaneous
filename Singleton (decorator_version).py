@@ -2,11 +2,11 @@ def singleton(klass):
 
     instances = None
 
-    def wrap(*args):
+    def wrap(*args, *kwargs):
         nonlocal instances
 
         if instances == None:
-            instances = klass(*args)
+            instances = klass(*args, *kwargs)
 
         return instances
 
