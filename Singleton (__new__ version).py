@@ -12,7 +12,6 @@ class Person:
         if cls.IS == None:
 
             cls.IS = object.__new__(Person)
-            return cls.IS
 
         return cls.IS
 
